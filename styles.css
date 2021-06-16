@@ -79,18 +79,18 @@ img{
 } 
 
 
-@media only screen and (max-width: 550px) {  
+@media only screen and (max-width: 530px) {  
     .header{
-        font-size: 3.5rem;
+        font-size: 2.8rem;
     }
     .name{
-        font-size: 3.3rem;
+        font-size: 2.8em;
     }
     .tech, .founder, .date, .website, .value{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     .footer{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 
 } 
