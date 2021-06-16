@@ -60,3 +60,37 @@ img{
     text-align: center;
     background-color:lightslategray;    
 }
+
+
+@media only screen and (max-width: 700px) {  
+    .header{
+        font-size: 4rem;
+    }
+    .name{
+        font-size: 3.7rem;
+    }
+    .tech, .founder, .date, .website, .value{
+        font-size: 2rem;
+    }
+    .footer{
+        font-size: 1rem;
+    }
+
+} 
+
+
+@media only screen and (max-width: 550px) {  
+    .header{
+        font-size: 3.5rem;
+    }
+    .name{
+        font-size: 3.3rem;
+    }
+    .tech, .founder, .date, .website, .value{
+        font-size: 1.6rem;
+    }
+    .footer{
+        font-size: 0.8rem;
+    }
+
+} 
